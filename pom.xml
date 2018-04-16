@@ -562,8 +562,8 @@
                     <driver>org.postgresql.Driver</driver>
                     <url>jdbc:postgresql://localhost:5432/GesBtp</url>
                     <defaultSchemaName></defaultSchemaName>
-                    <username>GesBtp</username>
-                    <password></password>
+                    <username>postgres</username>
+                    <password>badjinka</password>
                     <referenceUrl>hibernate:spring:com.gesbtp.atos.domain?dialect=org.hibernate.dialect.PostgreSQL82Dialect&amp;hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy&amp;hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy</referenceUrl>
                     <verbose>true</verbose>
                     <logging>debug</logging>
